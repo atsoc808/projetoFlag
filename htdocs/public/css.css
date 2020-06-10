@@ -1,0 +1,232 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html,
+body {
+  height: 100vh;
+  background-color: #1f1f27;
+  font-family: "Titillium Web", sans-serif;
+  color: white;
+}
+
+/* -------------------------LOGIN/SIGN UP --------------------------------*/
+
+.sign-in-submit {
+  background-color: #e10600;
+  color: white;
+  border-radius: 25px;
+  border: 2px solid #e10600;
+  box-sizing: border-box;
+  cursor: pointer;
+  line-height: 1;
+  text-transform: uppercase;
+  transition: all 0.7s cubic-bezier(0.2, 0, 0.05, 1);
+  font-size: 13px;
+  font-weight: 550;
+  line-height: 15px;
+  letter-spacing: 0.5px;
+  position: relative;
+  padding: 12px 25px 12px 25px;
+}
+
+.sign-in-submit:hover {
+  color: #1f1f27;
+  background-color: white;
+  border: 2px solid #e10600;
+  border-color: #e10600;
+}
+
+/* ---------------------- DRIVERS PAGE --------------------------*/
+
+.label-season {
+  color: white;
+  padding-right: 30px;
+  padding-top: 5px;
+}
+
+.div-check-season {
+  border-bottom: 40px;
+  border-top: 40px;
+  padding-right: 70px;
+  padding-top: 40px;
+}
+
+.select-season {
+  cursor: pointer;
+  display: inline-block;
+  width: auto;
+  font-size: 16px;
+  font-family: sans-serif;
+  font-weight: 700;
+  color: #444;
+  line-height: 1.3;
+  padding: 0.6em 2em 0.5em 0.8em;
+  box-sizing: border-box;
+  margin: 0;
+  border: 1px solid #aaa;
+  box-shadow: 0 1px 0 1px rgba(0, 0, 0, 0.04);
+  border-radius: 0.5em;
+  -moz-appearance: none;
+  -webkit-appearance: none;
+  appearance: none;
+  background-color: #fff;
+  background-image: url("data:image/svg+xml;charset=UTF-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%2212%22%20height%3D%2212%22%20viewBox%3D%220%200%2012%2012%22%3E%3Ctitle%3Edown-arrow%3C%2Ftitle%3E%3Cg%20fill%3D%22%23000000%22%3E%3Cpath%20d%3D%22M10.293%2C3.293%2C6%2C7.586%2C1.707%2C3.293A1%2C1%2C0%2C0%2C0%2C.293%2C4.707l5%2C5a1%2C1%2C0%2C0%2C0%2C1.414%2C0l5-5a1%2C1%2C0%2C1%2C0-1.414-1.414Z%22%20fill%3D%22%23000000%22%3E%3C%2Fpath%3E%3C%2Fg%3E%3C%2Fsvg%3E"),
+    linear-gradient(to bottom, #ffffff 0%, #e5e5e5 100%);
+  background-repeat: no-repeat, repeat;
+  background-position: right 0.7em top 50%, 0 0;
+  background-size: 0.65em auto, 100%;
+}
+.select-css::-ms-expand {
+  display: none;
+}
+.select-css:hover {
+  border-color: #888;
+}
+.select-css:focus {
+  border-color: #aaa;
+  box-shadow: 0 0 1px 3px rgba(59, 153, 252, 0.7);
+  box-shadow: 0 0 0 3px -moz-mac-focusring;
+  color: #222;
+  outline: none;
+}
+.select-css option {
+  font-weight: normal;
+}
+
+.check-season-submit {
+  background-color: #e10600;
+  color: white;
+  border-radius: 25px;
+  border: 2px solid #e10600;
+  box-sizing: border-box;
+  cursor: pointer;
+  line-height: 1;
+  text-transform: uppercase;
+  transition: all 0.7s cubic-bezier(0.2, 0, 0.05, 1);
+  font-size: 13px;
+  font-weight: 550;
+  line-height: 15px;
+  letter-spacing: 0.5px;
+  position: relative;
+  padding: 12px 25px 12px 25px;
+  margin-left: 30px;
+}
+
+.compare-submit {
+  background-color: #e10600;
+  color: white;
+  border-radius: 25px;
+  border: 2px solid #e10600;
+  box-sizing: border-box;
+  cursor: pointer;
+  line-height: 1;
+  text-transform: uppercase;
+  transition: all 0.7s cubic-bezier(0.2, 0, 0.05, 1);
+  font-size: 13px;
+  font-weight: 550;
+  line-height: 15px;
+  letter-spacing: 0.5px;
+  position: relative;
+  padding: 12px 25px 12px 25px;
+  margin-left: 30px;
+}
+
+.check-season-submit:hover {
+  color: #1f1f27;
+  background-color: white;
+  border: 2px solid #e10600;
+  border-color: #e10600;
+}
+
+.row-chosen-driver {
+  padding-top: 45px;
+}
+
+.chosen-driver-left {
+  color: white;
+  border: solid rgb(138, 138, 138) 2px;
+  margin: 2px;
+  border-radius: 0px 0px 0px 15px;
+  border-width: 2px;
+  margin-right: 20px;
+  padding: left 5;
+  border-right: transparent;
+  border-top: transparent;
+}
+.chosen-driver-div {
+  padding: 0px;
+}
+
+.chosen-driver-right {
+  color: white;
+  border: solid rgb(138, 138, 138) 2px;
+  margin: 2px;
+  border-radius: 0px 0px 15px 0px;
+  border-width: 2px;
+  padding: left 5;
+  border-left: transparent;
+  border-top: transparent;
+}
+.row-col-drivers {
+  padding-top: 20px;
+}
+
+.driver-name {
+  color: white;
+  border: solid rgb(138, 138, 138) 2px;
+  margin: 2px;
+  border-radius: 0px 0px 15px 0px;
+  border-width: 2px;
+  margin-right: 20px;
+  padding: left 5;
+  border-left: transparent;
+  border-top: transparent;
+}
+
+.driver-name:hover {
+  border-color: #e00;
+  border-width: 5px;
+  transition: 0.3s;
+  right: -1%;
+  color: white;
+}
+
+/* ---------------------- COMPARE PAGE --------------------------*/
+
+.stat-title {
+  color: white;
+  font-weight: bold;
+  margin: 45px 0px;
+}
+
+.stat-left {
+  color: white;
+  border: solid rgb(138, 138, 138) 2px;
+  margin: 2px 2px 2px 200px;
+  border-radius: 0px 0px 0px 15px;
+  border-width: 2px;
+  margin-right: 20px;
+  padding: left 5;
+  border-right: transparent;
+  border-top: transparent;
+}
+
+.stat-right {
+  color: white;
+  border: solid rgb(138, 138, 138) 2px;
+  margin: 2px 200px 2px 2px;
+  border-radius: 0px 0px 15px 0px;
+  border-width: 2px;
+  padding: left 5;
+  border-left: transparent;
+  border-top: transparent;
+}
+
+/* ---------------------- DRIVER PROFILE --------------------------*/
+
+.driver-num {
+  font-size: 45px;
+  color: white;
+}
